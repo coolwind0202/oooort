@@ -1,0 +1,30 @@
+.UserList {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  border: green 2px solid;
+  gap: 1rem;
+
+  /*
+    reset list style
+  */
+  margin: 0;
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.User {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  padding-left: 1rem;
+  gap: 1rem;
+}
+
+.UserColorCircle {
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
